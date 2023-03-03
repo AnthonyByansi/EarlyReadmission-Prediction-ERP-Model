@@ -16,3 +16,6 @@ To install the ERP Model, clone the repository and install the required packages
 
 `cd erp-model`
 `pip install -r requirements.txt`
+
+## Usage
+To use the ERP Model, import the `erp_model` module and call the `predict` function with a patient's data:
