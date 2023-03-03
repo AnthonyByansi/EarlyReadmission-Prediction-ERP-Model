@@ -11,12 +11,13 @@ The ERP Model uses a dataset of patient data collected from electronic health re
 The ERP Model uses a machine learning algorithm to predict the likelihood of readmission within 30 days of discharge. The algorithm is trained on a training set of patient data and tuned to optimize its performance. The model is evaluated on a testing set of patient data using appropriate metrics, such as accuracy, precision, recall, and F1 score. The model is deployed in a production environment where it can be used to predict readmission risk for new patients.
 
 ## Installation
-To install the ERP Model, clone the repository and install the required packages using pip:
-`git clone https://github.com/AnthonyByansi/erp-model.git`
+To install the ERP Model, clone the repository and install the required packages using pip: 
+```
+git clone https://github.com/AnthonyByansi/erp-model.git
 
-`cd erp-model`
-`pip install -r requirements.txt`
-
+cd erp-model
+pip install -r requirements.txt
+```
 ## Usage
 To use the ERP Model, import the `erp_model` module and call the `predict` function with a patient's data:
 
