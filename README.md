@@ -19,3 +19,18 @@ To install the ERP Model, clone the repository and install the required packages
 
 ## Usage
 To use the ERP Model, import the `erp_model` module and call the `predict` function with a patient's data:
+
+```from erp_model import predict
+
+patient_data = {
+    'age': 60,
+    'gender': 'M',
+    'diagnosis': 'heart failure',
+    'medications': ['furosemide', 'lisinopril'],
+    'lab_results': {'sodium': 135, 'potassium': 4.0, 'creatinine': 1.2}
+}
+
+readmission_probability = predict(patient_data)
+
+print(f"Readmission probability: {readmission_probability}")
+```
