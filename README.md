@@ -1,5 +1,5 @@
 # Early Readmission Prediction (ERP) Model
-The ERP Model is a machine learning project that aims to predict the likelihood of a patient being readmitted to the hospital within 30 days of discharge. The model uses patient data, such as demographic information, medical history, medication history, and lab results, to make predictions.
+> The ERP Model is a machine learning project that aims to predict the likelihood of a patient being readmitted to the hospital within 30 days of discharge. The model uses patient data, such as demographic information, medical history, medication history, and lab results, to make predictions.
 
 ## Problem Statement
 Hospital readmissions can be costly and potentially harmful to the patient's health. Therefore, it is important to develop predictive models that can accurately identify patients at risk of readmission within 30 days of discharge. The ERP Model aims to address this problem by predicting the likelihood of readmission and enabling healthcare providers to intervene early with appropriate care and resources to prevent readmissions and improve patient outcomes.
