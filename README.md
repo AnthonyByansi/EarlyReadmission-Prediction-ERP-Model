@@ -12,3 +12,7 @@ The ERP Model uses a machine learning algorithm to predict the likelihood of rea
 
 ## Installation
 To install the ERP Model, clone the repository and install the required packages using pip:
+`git clone https://github.com/AnthonyByansi/erp-model.git`
+
+`cd erp-model`
+`pip install -r requirements.txt`
